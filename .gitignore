@@ -1,0 +1,5 @@
+venv/
+__pycache__/
+*.avi
+qtable_charts/
+qtables/
