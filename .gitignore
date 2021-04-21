@@ -3,3 +3,5 @@ __pycache__/
 *.avi
 qtable_charts/
 qtables/
+.env
+.idea/
