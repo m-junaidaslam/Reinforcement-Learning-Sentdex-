@@ -58,7 +58,7 @@ fig = plt.figure(figsize=(12, 9))
 
 
 pending_files = []
-for i in range(10, 500001, 10):
+for i in range(10, 50001, 10):
     file_name = os.path.join(DIR_Q_TABLE_CHARTS, f"{i}.png")
     if not os.path.isfile(file_name):
         pending_files.append(i)
