@@ -9,7 +9,7 @@ def make_video():
     # fourcc = cv2.VideoWriter_fourcc('M', 'J', 'P', 'G')
     out = cv2.VideoWriter('qlearn.avi', fourcc, 60.0, (1200, 900))
 
-    for i in range(1, 50001, 10):
+    for i in range(10, 50001, 10):
         img_path = os.path.join('qtable_charts', f"{i}.png")
         print(img_path)
         frame = cv2.imread(img_path)
